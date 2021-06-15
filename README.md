@@ -22,4 +22,4 @@ $ python csv2keep
 The first time it tries to authenticate, google could throw an error, visit the link provided by the script to bypass it.
 6. The program will stop every 50 memos created (you can change this value, but it's not recommended). Check online on keep.google.com if they're ok, then press Enter to resume the script. Don't do it too quickly, or google will block you with Rate Limit Exceeded error.
 # Limitations #
-The script will only work for text or link notes, not for pictures due to limitation of gkeep api. You'll get only a file reference in the memo, and all physical files in **images** directory.
+The script will only work for text or link url notes and not for pictures, due to limitation of gkeep api. For these notes you'll only get a file reference in the memo, and all physical files in **images** directory.
