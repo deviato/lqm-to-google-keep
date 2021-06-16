@@ -2,9 +2,9 @@
 Script to convert notes exported from LG QuickMemoPlus format in csv, and import them into Google Keep
 
 # Requirements
-The scripts require tha installation of python with **gkeep** and **keyring** libs. Install with:
+The scripts require tha installation of python with **gkeepapi** and **keyring** libs. Install with:
 ```
-$ pip install gkeep keyring
+$ pip install gkeepapi keyring
 ```
 # How To Use #
 1. Export all memos from QuickMemo+ to your sdcard (Three Dots Options, Export, Select all, Export, SD Card).
